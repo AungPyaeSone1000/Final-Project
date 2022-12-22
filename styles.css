@@ -1,0 +1,120 @@
+body {
+    background-color: #171717;
+    color: antiquewhite;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}
+
+.logo {
+    height: 3rem;
+    width: auto;
+}
+
+.nav-bar {
+    background-color: #353535;
+    color: aliceblue;
+    display: block;
+    height: 3.5rem;
+}
+
+.nav-content a {
+    float: right;
+    display: inline;
+    font-size: larger;
+    padding: 1rem ;
+    text-align: center;
+    
+}
+
+.nav-content a:hover,
+.nav-bar a:hover {
+    background-color: grey;
+    transition: 1.5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    color: aliceblue;
+}
+
+.content {
+    text-align: center;
+}
+
+.container {
+    background-color: #F0F0F0;
+    color: #53618A;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    font-size: x-large;
+}
+
+.img1 {
+    float: left;
+    display: inline;
+    width: 25%;
+    
+}
+
+.big-img {
+    width: 50%;
+    margin: auto;
+}
+
+.small-img {
+    height: 350px;
+}
+
+.center-img {
+    height: 600px;
+}
+
+td{
+    padding-left: 50px;
+}
+
+.art {
+    height: 500px;
+    width: auto;
+    margin-left: 5rem;
+    float: left;
+    margin-right: 10rem;
+
+}
+
+.description{
+    width: 70%;
+}
+
+.amount {
+    border-radius: 7px;
+    width: 5.5em;
+    font-size: large;
+}
+
+.submit {
+
+    font-size: large;
+}
+.small-img:hover {
+    transform: translateY(-10px);
+}
+
+.center-img:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    text-align: center;
+    background-color:#353535
+}
+
+.artist {
+    height: 250px;
+}
